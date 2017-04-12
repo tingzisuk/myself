@@ -1,0 +1,434 @@
+/* 
+* @Author: DELL
+* @Date:   2017-04-04 18:16:29
+* @Last Modified by:   DELL
+* @Last Modified time: 2017-04-05 22:23:59
+*/ 
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	font-size: 12px;
+}
+a{
+	text-decoration: none;
+}
+/* bg开始 */
+.bg{
+	background: url('../img/bg.jpg') no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.bg .title{
+	height:auto;
+	padding-top: 160px;
+	padding-bottom: 160px;
+	background: rgba(0, 0, 0, 0);
+	text-align: center;
+	font-size:14px; 
+	color: #fff;
+}
+.bg .title h1{
+	width: 100%;
+	height: 154px;
+	font-size:100px;
+}
+.bg .title h4{
+	width: 100%;
+	height: 46px;
+	font-size: 40px;
+}
+/* bg结束 */
+
+
+/* 导航开始 */
+.nav{
+	background: #111;
+}
+.nav .con{
+	height: 76px;
+}
+.nav .con .l{
+	float: left;
+	line-height: 76px;
+}
+.nav .con .l:last-child a{
+	float: right;
+}
+.nav .con .l a{
+	color: #fff;
+	font-size: 40px;
+}
+/* 导航结束 */
+
+
+/* 爱好开始 */
+.ai{
+	margin: 80px 0 40px 0;
+	/* padding: 0 85px; */
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.ai .con{
+	height: auto;
+}
+.ai .title{
+	width: 100%;
+	height: 61px;
+	margin: 20px auto 70px;
+	text-align: center;
+	line-height: 61px;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.ai .title h2{
+	width: 300px;
+	margin: 0 auto;
+	position: relative;
+}
+.ai .title h2 span{
+	font-size: 56px;
+}
+.ai .title span:after{
+	content: "";
+	display: inline-block;
+	border: 1px solid #ccc;
+	width: 600px;
+	position: absolute;
+	top: 30px;
+	right: -620px;
+}
+.ai .title span:before{
+	content: "";
+	display: inline-block;
+	border: 1px solid #ccc;
+	width: 600px;
+	position: absolute;
+	top: 30px;
+	left: -620px;
+}
+.ai .in{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.ai .in .f{
+	float: left;
+	padding: 0 15px;
+	box-sizing: border-box;
+}
+.ai .in .f .sec{
+	width: 263px;
+	height: 263px;
+	border: 1px solid #b5b5b5;
+	border-radius: 50%;
+	text-align: center;
+
+}
+.ai .in .f .sec p{
+	margin-top: 100px;
+}
+/* 爱好结束 */
+
+
+/* 作品开始 */
+.w{
+	padding-top: 80px;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.w .con{
+	height: auto;
+}
+.w .title{
+	width: 100%;
+	height: 61px;
+	margin: 20px 0 70px 0;
+	text-align: center;
+	line-height: 61px;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.w .title h2{
+	width: 300px;
+	margin: 0 auto;
+	position: relative;
+}
+.w .title h2 span{
+	font-size: 56px;
+}
+.w .title span:after{
+	content: "";
+	display: inline-block;
+	border: 1px solid #ccc;
+	width: 600px;
+	position: absolute;
+	top: 30px;
+	right: -620px;
+}
+.w .title span:before{
+	content: "";
+	display: inline-block;
+	border: 1px solid #ccc;
+	width: 600px;
+	position: absolute;
+	top: 30px;
+	left: -620px;
+}
+.w .p{
+	width: 100%;
+	height: auto;
+	padding-bottom: 40px;
+	overflow: hidden;
+}
+.w .p .f{
+	padding: 0 15px;
+	margin-bottom: 30px;
+	float: left;
+	box-sizing: border-box;
+	margin: 0 auto 30px;
+	overflow: hidden;
+}
+.w .p .f img{
+	display: block;
+	height: 100%;
+	width: 100%;
+	list-style: none;
+	margin: 0 auto;
+}
+.w .b{
+	height: 180px;
+	padding: 0 15px;
+	margin: 0 auto;
+	text-align: center;
+}
+.w .b .zi{
+	width: 100%;
+	height: 40px;
+	padding: 40px 0 60px 0;
+	text-align: center;
+	margin: 0 auto;
+}
+.w .b .zi a{
+	width: auto;
+	height: auto;
+	padding: 15px 30px;
+	font-size: 30px;
+	border: 1px solid  #000;
+	color: #000;
+	
+}
+.w .b .zi a:hover{
+	color: #fff;
+	background: #000;
+}
+/* 作品结束 */
+
+
+/* 关于我开始 */
+.a{
+	padding: 80px 0;
+	color: #fff;
+	background: url('../img/bottom.jpg') no-repeat;
+	background-attachment: fixed;
+    background-size: cover;
+}
+.a .in{
+height: auto;
+}
+.a .title{
+	width: 100%;
+	height: 61px;
+	margin: 20px 0 70px 0;
+	text-align: center;
+	line-height: 61px;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.a .title h2{
+	width: 400px;
+	margin: 0 auto;
+	position: relative;
+}
+.a .title h2 span{
+	font-size: 56px;
+}
+.a .title span:after{
+	content: "";
+	display: inline-block;
+	border: 1px solid #ccc;
+	width: 600px;
+	position: absolute;
+	top: 30px;
+	right: -620px;
+}
+.a .title span:before{
+	content: "";
+	display: inline-block;
+	border: 1px solid #ccc;
+	width: 600px;
+	position: absolute;
+	top: 30px;
+	left: -620px;
+}
+.a .in .nei{
+	height: 423px;
+	padding: 0 15px;
+	background: rgba(0, 0, 0, 1.0);
+	overflow: hidden;
+	box-sizing: border-box;
+}
+/* 关于我结束 */
+
+
+/* hey开始 */
+.h{
+	padding: 80px 0 60px;
+	background: rgba(0, 0, 0,.7);
+}
+.h .in{
+	height: auto;
+}
+.h .title{
+	width: 100%;
+	height: 61px;
+	margin: 20px 0 70px 0;
+	text-align: center;
+	line-height: 61px;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.h .title h2{
+	width: 300px;
+	margin: 0 auto;
+	position: relative;
+}
+.h .title h2 span{
+	font-size: 56px;
+	color: white;
+}
+.h .title span:after{
+	content: "";
+	display: inline-block;
+	border: 1px solid #ccc;
+	width: 600px;
+	position: absolute;
+	top: 30px;
+	right: -620px;
+}
+.h .title span:before{
+	content: "";
+	display: inline-block;
+	border: 1px solid #ccc;
+	width: 600px;
+	position: absolute;
+	top: 30px;
+	left: -620px;
+}
+.h .in .about{
+	height: auto;
+	margin: 0 -15px;
+	overflow: hidden;
+}
+.h .in .about .f{
+	float: left;
+	padding: 0 15px;
+	box-sizing: border-box;
+}
+/* hey结束 */
+
+
+/* 联系方式开始 */
+.fo{
+	padding: 30px 0 ;
+	overflow: hidden;
+	background: rgba(0, 0, 0, .75);
+}
+.fo .in{
+	height: auto;
+}
+.fo .in .nei{
+	width: 100%;
+	height: 166px;
+}
+.fo .in .nei .title{
+	width: 300px;
+	height: 60px;
+	border-bottom: 1px solid #fff;
+	padding-bottom: 10px;
+	margin:0 auto 30px;
+	font-size: 45px;
+	text-align: center;
+	color: white;
+}
+.fo .in .nei ul{
+	width: 300px;
+	height: 50px;
+	margin: 0 auto;
+}
+.fo .in .nei ul li{
+	width: 50px;
+	height: 50px;
+	padding: 0 5px;
+	float: left;
+}
+.fo .in .nei ul li:nth-child(1) a{
+	display: block;
+	width: 50px;
+	height: 50px;
+	background: url('../img/1.png');
+	background-size: 100% 200%;
+	transition: all 0.4s ease;
+}
+.fo .in .nei ul li:nth-child(2) a{
+	display: block;
+	width: 50px;
+	height: 50px;
+	background: url('../img/2.png');
+	background-size: 100% 200%;
+}
+.fo .in .nei ul li:nth-child(3) a{
+	display: block;
+	width: 50px;
+	height: 50px;
+	background: url('../img/3.png');
+	background-size: 100% 200%;
+}
+.fo .in .nei ul li:nth-child(4) a{
+	display: block;
+	width: 50px;
+	height: 50px;
+	background: url('../img/4.png');
+	background-size: 100% 200%;
+}
+.fo .in .nei ul li:nth-child(5) a{
+	display: block;
+	width: 50px;
+	height: 50px;
+	background: url('../img/5.png');
+	background-size: 100% 200%;
+}
+/* 联系方式结束 */
+
+/* 底部开始 */
+.footer{
+	background: #000;
+	color: #fff;
+	overflow: hidden;
+}
+.footer .in{
+	height: auto;
+}
+.footer .l{
+	height: 20px;
+	padding: 20px 0;
+	font-size: 14px;
+}
+.footer .r{
+	text-align: right;
+}
+.footer .in1{
+	text-align: center;
+	display: none;
+}
+/* 底部开始 */
